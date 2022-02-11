@@ -1,1 +1,4 @@
 name: My team's great approval flow
+on:
+  pull_request_review:
+    types: [edited, dismissed]
